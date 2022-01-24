@@ -1,7 +1,14 @@
 package com.learning.pojo;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.annotation.Resource;
+
+
 public class Person {
+    @Resource
     private Cat cat;
+    @Resource
     private Dog dog;
     private String name;
 
