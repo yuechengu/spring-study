@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<!--核心配置文件-->
+<configuration>
+    <settings>
+        <!--标准日志工厂-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--log4j-->
+        <!--<setting name="logImpl" value="LOG4J"/>-->
+    </settings>
+
+    <!--给实体类起别名-->
+    <typeAliases>
+        <package name="com.learning.pojo"/>
+        <!--<typeAlias type="com.learning.pojo.User" alias="User"/>-->
+    </typeAliases>
+</configuration>

@@ -7,6 +7,7 @@ import java.util.List;
 public interface UserMapper {
     public List<User> queryUsers();
 
+    public int addUser(User user);
 
-
+    public int deleteUser(int id);
 }
