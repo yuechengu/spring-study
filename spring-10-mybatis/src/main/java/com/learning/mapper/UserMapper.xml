@@ -6,7 +6,7 @@
 <mapper namespace="com.learning.mapper.UserMapper">
     
     <select id="queryUsers" resultType="user">
-        select * from mybatis.user;
+        select * from user;
     </select>
 
 </mapper>

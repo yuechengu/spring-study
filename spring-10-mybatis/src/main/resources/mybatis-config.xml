@@ -12,7 +12,7 @@
         <!--<setting name="logImpl" value="LOG4J"/>-->
     </settings>
 
-    <!--可以给实体类起别名-->
+    <!--给实体类起别名-->
     <typeAliases>
         <package name="com.learning.pojo"/>
         <!--<typeAlias type="com.learning.pojo.User" alias="User"/>-->
